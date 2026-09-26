@@ -1,0 +1,19 @@
+{
+	"main": "index.html",
+	"name": "SWAP",
+	"description": "do you wanna have a bad time? 'cause if you visit this page... you are REALLY not going to like what happens next.",
+	"version": "1.0.0.0",
+	"window": {
+		"icon": "icon-128.png",
+		"width": 640,
+		"height": 480,
+		"position": "center",
+		"resizable": true,
+		"frame": true,
+		"kiosk": false,
+		"show": false
+	},
+	"dom_storage_quota": 50,
+	"user-agent": "Mozilla/5.0 (%osinfo) AppleWebKit/%webkit_ver (KHTML, like Gecko, Chrome, Safari) NWjs/%nwver",
+	"chromium-args": "--disable-plugins --disable-internal-flash --disable-popup-blocking --enable-gamepad --enable-html5-camera --allow-file-access-from-files --ignore-gpu-blacklist"
+}
